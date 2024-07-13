@@ -1,1 +1,2 @@
 # odin-recipes
+My first project for the 'Foundations' course in The Odin Project. First made to showcase and practice my newly learned HTML skills. It will be revisited in future lessons to polish the website.
