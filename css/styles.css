@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1.homepage {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: 800;
     text-align: center;
@@ -15,8 +15,11 @@ h1.homepage {
     border: 2px solid black;
 }
 
+ul {
+    width: 200px;
+}
+
 .index {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: 200;
     list-style-type: none;
@@ -46,8 +49,43 @@ img.ranch-tacos {
 
 .summary,
 .ingredients,
-.steps {
-    font-family: Arial, Helvetica, sans-serif;
+.preparation {
     font-size: 18px;
     font-weight: 200;
+    margin: 10px;
+    text-align: justify;
+}
+
+body h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+    width: 200px;
+    background-color: #f51231;
+    padding: 4px;
+    text-align: center;
+}
+
+.title-lasagna,
+.title-mac,
+.title-ranch {
+    font-size: 36px;
+    width: 400px;
+    padding: 8px;
+    margin: 0 auto 16px;
+    text-align: center;
+}
+
+ul.ingredients {
+    width: 260px;
+    padding-left: 30px;
+}
+
+ol.preparation {
+    width: 608px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 6px;
 }
