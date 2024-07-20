@@ -83,6 +83,7 @@ ul.ingredients {
 
 ol.preparation {
     width: 608px;
+    padding-left: 30px;
 }
 
 ul li,
